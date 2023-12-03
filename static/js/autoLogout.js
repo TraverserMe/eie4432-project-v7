@@ -23,7 +23,7 @@ class AutoLogout {
     }
 
     setTimeout() {
-        this.warnTimeout = setTimeout(this.warn, 14 * 10 * 1000);
+        this.warnTimeout = setTimeout(this.warn, 14 * 60 * 1000);
 
         // this.logoutTimeout = setTimeout(this.logout, 1 * 10 * 1000);
     }
